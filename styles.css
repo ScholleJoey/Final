@@ -191,3 +191,23 @@ section p{
     text-align: center;
   }
 }
+
+.home-button {
+  display: block;
+  width: 200px;
+  margin: 2rem auto;
+  padding: 0.8rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: #9e1b32;
+  border: 2px solid #9e1b32;
+  border-radius: 5px;
+  font-weight: bold;
+
+}
+
+.home-button:hover {
+  background-color: white;
+  color: #9e1b32;
+}
