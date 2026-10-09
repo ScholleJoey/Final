@@ -211,3 +211,43 @@ section p{
   background-color: white;
   color: #9e1b32;
 }
+
+.subpage-header {
+  background: linear-gradient(120deg, #741328, #9e1b32, #741328);
+  color: white;
+  text-align: center;
+  padding: 1.5rem 1rem;
+  border-bottom: 4px solid #c9a227;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+}
+
+.subpage-header h1 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.subpage-header p {
+  color: #f0dfe2;
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  font-style: italic;
+  margin: 0.5rem 0 0;
+}
+
+@media (max-width: 48rem) {
+  .subpage-header {
+    padding: 1.2rem 0.8rem;
+  }
+}
+
+.subpage-header h1 {
+  font-size: 1.7rem;
+}
+
+.subpage-header p {
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+}
